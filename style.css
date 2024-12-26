@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.aufgabe-details {
+    flex-grow: 1;
+}
+
+.aufgabe-details input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.aufgabe-aktionen button {
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.aufgabe-erledigen {
+    background-color: #28a745;
+    color: white;
+}
+
+.aufgabe-loeschen {
+    background-color: #dc3545;
+    color: white;
+}
+
+button {
+    padding: 0.7em 1.2em;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+input[type="text"] {
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+    width: calc(100% - 2em);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+.ziel {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ziel h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: #007bff;
+}
+
+.ziel ul {
+    margin-top: 0.5em;
+}
+
+.ziel li {
+    padding: 0.3em 0;
+}
+
+.ziel li span {
+    flex-grow: 1;
+}
+
+.ziel li button {
+    margin-left: 0.5em;
+}
+
+.belohnung-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #eee;
+}
+
+.belohnung-element:last-child {
+    border-bottom: none;
+}
+
+.belohnung-loeschen {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
