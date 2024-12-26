@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziel- und Aufgaben-Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ziel- und Aufgaben-Tracker</h1>
+    </header>
+
+    <main>
+        <section id="ziel-hinzufuegen">
+            <h2>Neues Ziel hinzufügen</h2>
+            <input type="text" id="neues-ziel-input" placeholder="Gib dein Ziel ein">
+            <button id="ziel-hinzufuegen-button">Ziel hinzufügen</button>
+        </section>
+
+        <section id="ziele-liste">
+            <h2>Meine Ziele</h2>
+            <ul id="ziele">
+                <!-- Ziele werden hier per JavaScript eingefügt -->
+            </ul>
+        </section>
+
+        <section id="belohnungen">
+            <h2>Belohnungen</h2>
+            <p>Belohne dich für erreichte Ziele!</p>
+            <ul id="belohnungs-liste">
+                <!-- Belohnungen werden hier per JavaScript eingefügt -->
+            </ul>
+            <input type="text" id="neue-belohnung-input" placeholder="Neue Belohnung hinzufügen">
+            <button id="belohnung-hinzufuegen-button">Belohnung hinzufügen</button>
+        </section>
+
+        <section id="text-rasieren">
+            <h2>Text Rasieren</h2>
+            <p id="text-rasieren-anzeige">Dieser Text wird durch deine Fortschritte rasiert!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Dein Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
